@@ -1,11 +1,6 @@
-# print('hello world')
-# print(not False)
-
-a = int(input('Enter number #1: '))
-b = int(input('Enter number #2: '))
-c = 5
-print(a + b +c)
-
+name =input('enter NAME :')
+age =input('Enter your AGE :')
+print(F'Hello ,{name}!you are  {age}years old')
 
 
 
