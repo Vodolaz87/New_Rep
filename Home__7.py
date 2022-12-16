@@ -1,18 +1,19 @@
 '''7.1'''
-# A = [int(input('a:')), int(input('b:')), int(input('c:')), int(input('d:')), int(input('e:'))]
+# A = []
+# for i in range(5):
+#     A.append(int(input('Enter number: ')))
 # print(A)
-
 '''7.2'''
 # A = [1, 2, 3, 4, 5]
 # A.pop()
 # print(A)
 
 '''7.3'''
-# A = [int(input('a:')), int(input('b:')), int(input('c :')), int(input('d :')), int(input('e:')),
-#      int(input('f:')), int(input('g:')), int(input('h:')), int(input('j:')), int(input('k:'))]
+# A = []
+# for i in range(10):
+#     A.append(int(input('Enter number: ')))
 # N = int(input('Enter N:'))
 # print(A.count(N))
-
 
 '''7.4'''
 # A = []
@@ -22,10 +23,10 @@
 # print(A)
 
 '''7.5'''
-
-# A = [int(input('a:')), int(input('b :')), int(input('c :')), int(input('d :')), int(input('e :'))]
+# A = []
+# for i in range(5):
+#     A.append(int(input('Enter number: ')))
 # C = []
-# # print(A)
 # for i in A:
 #     if i > 5:
 #         C.append(i)
@@ -44,4 +45,3 @@
 #     if i.isdigit():
 #         N += 1
 # print(N)
-
